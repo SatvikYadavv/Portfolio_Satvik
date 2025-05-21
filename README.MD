@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with **HTML**, **CSS**, an
 
 ## Demo
 
-[Live Demo](https://your-portfolio-url.com) 
+[Live Demo](https://satvikyadavv.github.io/Portfolio_Satvik/) 
 
 ## Features
 
