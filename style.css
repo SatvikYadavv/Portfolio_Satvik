@@ -1,0 +1,829 @@
+
+::-webkit-scrollbar {
+    display: none;
+}
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    @keyframes appear {
+        from{
+            opacity: 0;
+            scale: 0.5;
+        }
+    
+        to {
+            opacity: 1;
+            scale: 1;
+        }
+        
+    }
+
+    @keyframes trans{
+        from{
+            opacity: 0;
+            transform: translateX(100px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+        
+    }
+
+    @keyframes transr{
+        from{
+            opacity: 0;
+            transform: translatex(-100px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translatex(0px);
+        }
+        
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes drawLine {
+        from {
+          height: 0;
+        }
+        to {
+          height: 449px; /* Adjust as needed */
+        }
+      }
+
+
+
+   /* navbar */
+
+   .navbar {
+    position: absolute;
+    top: 22px;
+    left: -19px;
+    width: 100%;
+    padding: 14px -1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
+
+   
+.nav-buttons .btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-left: 10px; /* Space between buttons */
+    font-family: Bebas Neue;
+    text-decoration: none;
+    
+}
+
+.nav-buttons .btn:hover {
+        background: #FDDFB1;
+        color: black;
+}
+
+/* SECTION1 */
+
+.myname {
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 70px;
+    position: absolute;
+    top: 208px;
+    left: 130px;
+    
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+    h1{
+        color: #FDDFB1;
+        font-family:Bebas Neue ;
+        font-size: 400px ;
+        text-align: center;
+        top: 221px;
+    position: absolute;
+    left: 119px;
+    animation: fadeIn 2s linear forwards;
+    }
+
+    .container{
+        text-align: center;
+        background-image:url(wmremove-transformed.jpeg);
+        background-repeat:no-repeat ;
+        background-size:cover ;
+        height: 100vh;
+        
+    }
+
+   
+
+    .img {
+        align-self: center;
+    height: 543px;
+    width: 501px;
+    position: absolute;
+    bottom: 0px;
+    right: 333px;
+    /* animation: trans .5s linear forwards; */
+}
+
+/* SECTION2 */
+
+ .toc  p{
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 199px;
+    position: absolute;
+    top: 801px;
+    right: 13px;
+}
+
+.section2{
+    background-color: black;
+    height: 100vh;
+    
+    
+}
+
+.shoes{
+    position: absolute;
+    height: 657px;
+    animation: trans linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+    
+
+}
+
+
+
+.toc-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 41px;
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    top: 1061px;
+    left: 400px;
+}
+
+
+.toc-container button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+}
+
+
+.toc-container button:hover {
+    background: white;
+    color: black;
+}
+
+
+/* ABOUT */
+
+.about{
+    height: 100vh;
+    background: rgb(0, 0, 0);
+
+}
+
+
+
+.about h1{
+    font-size: 382px;
+    position: absolute;
+    top: 1719px;
+    left: 29px;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+
+}
+
+.about img{
+height: 80vh;
+position: absolute;
+top: 1624px;
+left: 977px;
+animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+}
+
+.about p{
+    color: white;
+    height: 100px;
+    width: 1123px;
+    font-size: 30px;
+    position: relative;
+    top: 68px;
+    left: 58px;
+    font-family: Bebas Neue;
+    animation: trans linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+   
+}
+
+.about h2{
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+    
+}
+
+#element{
+    color: wheat;
+    font-size: 50px;
+    font-family: Bebas Neue;
+    position: relative;
+    top: 38px;
+    left: 59px;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+}
+
+
+/* SECTION4 */
+
+.edu{
+    background-color: black;
+    height: 100vh;
+}
+
+.edu h1{
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 167px;
+    text-align: center;
+    top: 2225px;
+    position: absolute;
+    left: 498px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+}
+
+.e1{
+    background-color: #FDDFB1;
+    border: 2px solid white;
+    border-radius: 14px;
+    color: white;
+    position: absolute;
+    width: 300px;
+    height: 135px;
+    top: 2431px;
+    left: 396px;
+    animation: trans linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    color: black;
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.e1 p{
+        
+    font-size: 3.5vh;
+    color: white;
+    text-shadow: 0 0 3.5px black;
+    
+}
+
+#perc{
+    font-size: 6vh;
+    color: black;
+}
+
+.e2 p{
+        
+    font-size: 3.5vh;
+    color: white;
+    text-shadow: 0 0 3.5px black;
+    
+}
+
+.e3 p{
+        
+    font-size: 3.5vh;
+    color: white;
+    text-shadow: 0 0 3.5px black;
+    
+}
+
+
+
+.e2{
+    background-color: #FDDFB1;
+    border: 2px solid white;
+    border-radius: 14px;
+    color: white;
+    position: absolute;
+    width: 300px;
+    height: 135px;
+    top: 2591px;
+    left: 826px;
+    animation: transr linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    color: black;
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.e3{
+    background-color: #FDDFB1;
+    border: 2px solid white;
+    border-radius: 14px;
+    color: white;
+    position: absolute;
+    width: 300px;
+    height: 135px;
+    top: 2740px;
+    left: 396px;
+    animation: trans linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    color: black;
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 4vh;
+}
+
+
+
+.vline{
+    border: 4px solid #ffffff;
+    width: .1px;
+    height: 449px;
+    position: absolute;
+    left: 760px;
+    top: 2431px;
+    animation: drawLine 2s ease-in-out forwards ;
+}
+
+.line.active {
+    height: 100px; /* Adjust height as needed */
+    opacity: 1;
+  }
+
+
+  /* section5 */
+
+
+  .pskills{
+    height: 100vh;
+    background: rgb(0, 0, 0);
+
+}
+
+.pskills h1{
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 167px;
+    text-align: center;
+    top: 3440px;
+    position: absolute;
+    left: 109px;
+    animation: trans linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.PS{
+   
+        display: grid;
+        gap: 41px;
+        width: 30%;
+        text-align: center;
+        position: absolute;
+        top: 2990PX;
+    left: 95px;
+        background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+}
+
+.PS :hover{
+    background-color: #FDDFB1;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.ve{
+    display: grid;
+        gap: 41px;
+        width: 30%;
+        text-align: center;
+        position: absolute;
+        top: 3253PX;
+        left: 139px;
+    
+        background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+}
+
+.ve :hover{
+    background-color: #FDDFB1;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.GD{
+    display: grid;
+        gap: 41px;
+        width: 30%;
+        text-align: center;
+        position: absolute;
+        top: 3092PX;
+    left: 571px;
+        background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+}
+
+.GD :hover{
+    background-color: #FDDFB1;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ms{
+    display: grid;
+        gap: 41px;
+        width: 30%;
+        text-align: center;
+        position: absolute;
+        top: 3279PX;
+    left: 823px;
+        background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+}
+
+.ms :hover{
+    background-color: #FDDFB1;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.mm{
+    display: grid;
+        gap: 41px;
+        width: 30%;
+        text-align: center;
+        position: absolute;
+        top: 2992PX;
+    left: 1032px;
+        background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+}
+
+.mm :hover{
+    background-color: #FDDFB1;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* section 6  */
+
+.exper{
+    height: 100vh;
+    background: rgb(0, 0, 0);
+}
+
+.exper h1{
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 153px;
+    text-align: center;
+    top: 3712px;
+    position: absolute;
+    left: 542px;
+    animation: fadeIn 2s linear forwards;
+    
+}
+
+.exper h2{
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    animation: appear linear;
+    width: 380px;
+    position: absolute;
+    top: 3989px;
+    left: 1160px;
+    width: 221px;
+    animation: transr linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30% ;
+        font-family: Bebas Neue;
+
+}
+
+.exper p{
+    font-size: 3vh;
+    color: white;
+    text-shadow: 0 0 3.5px black;
+    font-family: Bebas Neue;
+    
+}
+
+.box{
+    width: 380px;
+    position: absolute;
+    top: 4054px;
+    text-align: right;
+    left: 1020px;
+    animation: transr linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 60%;
+
+}
+
+.box2{
+    width: 380px;
+    position: absolute;
+    top: 4240px;
+    text-align: right;
+    left: 1020px;
+    animation: transr linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+
+}
+
+#wex2{
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    animation: appear linear;
+    width: 380px;
+    position: absolute;
+    top: 4174px;
+    left: 1160px;
+    width: 221px;
+    animation: transr linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30% ;
+        font-family: Bebas Neue;
+    
+
+}
+
+/* section 7 */
+
+.projects{
+
+        height: 100vh;
+        background: rgb(0, 0, 0);
+    
+}
+
+.projects img{
+    position: absolute;
+    top: 4529px;
+    left: 560px;
+    height: 50vh;
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    border-radius: 60%;
+    border: 3px solid white;
+    
+}
+
+.projects img:hover {
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.566);
+    position: absolute;
+    top: 4529px;
+    left: 560px;
+    bottom: 0;
+    
+}
+
+.watermark  {
+    position: absolute;
+    top: 4972px;
+    left: 650px;
+    color: black;
+    font-size: 100px;
+    font-family: Bebas Neue;
+
+
+}
+
+.projects:hover .watermark{
+    transition: ease-in 2s;
+    color: white;
+    text-shadow: 0px 0px 100px #FDDFB1;
+
+}
+
+/* section 8 */
+
+.contact{
+
+    height: 100vh;
+    background: rgb(0, 0, 0);
+
+}
+
+
+.form-container {
+    border: 1px solid #fddfb1;
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 400px;
+    width: 150%;
+    box-shadow: 0 0 1000px #ffffff66;
+    position: absolute;
+    top: 5300px;
+    left: 533px;
+    justify-content: center;
+ 
+  }
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: WHITE;
+    font-family: bebas neue;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(255, 0, 0);
+    font-family: bebas neue;
+  }
+  input, textarea {
+    width: 95%;
+    padding: 8px;
+    margin-right: 20px;
+    border: 1px solid #fddfb1;
+    border-radius: 5px;
+    background: rgb(111, 109, 109);
+    color: #fddfb1;
+  }
+
+  input, ::placeholder{
+    color: #000;
+  }
+  button {
+    background-color: #fddfb1;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: bebas neue;
+  }
+  button:hover {
+    background-color: white;
+    color: #fddfb1;
+    border: 1px solid #fddfb1;
+  }
+
+  .scroll-up-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+      z-index: 1000;
+    }
+
+    .scroll-up-btn:hover {
+      background-color: #0056b3;
+      transform: scale(1.1);
+    }
+
+
+
