@@ -1,0 +1,544 @@
+@media (max-width:600px) {
+
+    @keyframes drawLine {
+        from {
+          height: 0;
+        }
+        to {
+          height: 70%; /* Adjust as needed */
+        }
+      }
+    .navbar {
+    top: 4%;
+        left: -3%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+   }
+
+   .myname {
+    padding-top: 17%;
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 6rem;
+    display: flex;
+    position: absolute;
+    top: 7%;
+    left: 4%;
+    animation: fadeIn 2s ease-in-out forwards;
+
+}
+
+
+
+
+.container{
+        text-align: center;
+        background-image:url(wmremove-transformed.jpeg);
+        background-repeat:no-repeat ;
+        background-size:cover ;
+        height: 80%;
+        min-width: 100%;
+        
+    }
+
+ h1{
+    padding-top: 25%;
+    color: #FDDFB1;
+    font-family:Bebas Neue ;
+    font-size: 6.5rem ;
+    text-align: center;
+    top: 15%;
+    left: 3%;
+    position: absolute;
+    animation: fadeIn 2s linear forwards;
+}
+
+   .img {
+        padding-top: 50%;
+        align-self: center;
+        height: 65%;
+        width: 100%;
+        position: relative;
+        top: -1%;
+        left: 0%;
+        
+   }
+
+   /* section 2 */
+
+   .section2{
+    background-color: black;
+    height: 53rem;
+    
+    
+}
+   .toc {
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 7rem;
+    position: relative;
+    text-align: center;
+    top: 6%;
+    left: 0%;
+}
+.toc-container button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+}
+
+.toc-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    width: 85%;
+    text-align: center;
+    position: relative;
+    top: 16%;
+    left: 8%;
+}
+
+.shoes{
+    display: none;
+}
+
+/* about */
+
+.about{
+    height: auto;
+    background: rgb(0, 0, 0);
+
+}
+
+.about h1{
+    font-size: 10rem;
+    position: relative;
+    top: -10%;
+    left: 0%;
+    animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40% ;
+    
+
+}
+.about p{
+    color: white;
+        height: 156%;
+        width: 63%;
+        font-size: 2rem;
+        position: relative;
+        top: -5%;
+        left: 1%;
+        font-family: Bebas Neue;
+        animation: trans linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+   
+}
+#element{
+   display: none;
+}
+
+.about img{
+display: none;
+}
+
+/* section 4 */
+
+.edu h1{
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 6rem;
+    text-align: center;
+    top: 0%;
+    position: relative;
+    left: 0%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+    
+}
+
+.edu{
+    background-color: black;
+    height: 140vh;
+}
+
+
+
+.vline{
+    border: 4px solid #ffffff;
+    width: .1px;
+    animation: drawLine 2s ease-in-out forwards ;
+    position: relative;
+    top: -2%;
+    left: 50%;
+}
+
+.e1{
+        background-color: #FDDFB1;
+        border: 2px solid white;
+        border-radius: 14px;
+        color: white;
+        position: relative;
+        width: 42%;
+        height: 23vh;
+        top: -65%;
+        left: 4%;
+        animation: trans linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+        color: black;
+        font-family: Bebas Neue;
+        text-align: center;
+        font-size: 3vh;
+}
+
+.e1 p {
+    font-size: 4vh;
+        color: white;
+        text-shadow: 0 0 3.5px black;
+}
+
+.e2 p {
+    font-size: 4vh;
+        color: white;
+        text-shadow: 0 0 3.5px black;
+}
+
+.e3 p {
+    font-size:4vh;
+        color: white;
+        text-shadow: 0 0 3.5px black;
+}
+
+#perc{
+    font-size: 4vh;
+    color: black;
+}
+
+.e2{
+   background-color: #FDDFB1;
+        border: 2px solid white;
+        border-radius: 14px;
+        color: white;
+        position: relative;
+        width: 42%;
+        height: 23vh;
+        top: -60%;
+        left: 54%;
+        animation: trans linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30%;
+        color: black;
+        font-family: Bebas Neue;
+        text-align: center;
+        font-size: 3vh;
+}
+
+.e3{
+   background-color: #FDDFB1;
+        border: 2px solid white;
+        border-radius: 14px;
+        color: white;
+        position: relative;
+        width: 42%;
+        height: 23vh;
+        top: -58%;
+        left: 4%;
+        animation: trans linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 25%;
+        color: black;
+        font-family: Bebas Neue;
+        text-align: center;
+        font-size: 3vh;
+}
+
+
+/* section 5 */
+
+.pskills h1{
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 7rem;
+    text-align: center;
+    top: 0%;
+    position: relative;
+    left: 0%;
+    animation: trans linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.PS{
+   
+display: grid;
+gap: 22%;
+text-align: center;
+position: relative;
+top: 0%;
+left: 1%;
+width: 97%;
+background: transparent;
+color: white;
+border: 2px solid white;
+padding-top: 7%;
+padding: 7%;
+border-radius: 50px;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+animation: appear linear;
+animation-timeline: view();
+animation-range: entry 0% cover 40%;
+    
+}
+
+.ve{
+        display: grid;
+        gap: 22%;
+        text-align: center;
+        position: relative;
+        top: 0%;
+        left: 1%;
+        width: 97%;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+        padding-top: 7%;
+        padding: 7%;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+}
+
+
+.GD{
+    display: grid;
+        gap: 22%;
+        text-align: center;
+        position: relative;
+        top: 0%;
+        left: 1%;
+        width: 97%;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+        padding-top: 7%;
+        padding: 7%;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+}
+
+.ms{
+  display: grid;
+        gap: 22%;
+        text-align: center;
+        position: relative;
+        top: 0%;
+        left: 1%;
+        width: 97%;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+        padding-top: 7%;
+        padding: 7%;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+}
+
+.mm{
+  display: grid;
+        gap: 22%;
+        text-align: center;
+        position: relative;
+        top: 0%;
+        left: 1%;
+        width: 97%;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+        padding-top: 7%;
+        padding: 7%;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+}
+
+
+/* section 6 */
+
+.exper h1{
+    color: #FDDFB1;
+    font-family: Bebas Neue;
+    font-size: 6rem;
+    text-align: center;
+    top: -6%;
+    position: relative;
+    left: 0%;
+    animation: fadeIn 2s linear forwards;
+    
+}
+
+.exper h2{
+    display: inline-block;
+        margin-right: 10%;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        position: relative;
+        top: 0%;
+        text-align: right;
+        left: -14%;
+        width: 68%;
+        animation: transr linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 20%;
+        font-family: Bebas Neue;
+
+}
+
+#wex2{
+   display: inline-block;
+        margin-right: 10%;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        position: relative;
+        top: 3%;
+        text-align: right;
+       left: -14%;
+        width: 68%;
+        animation: transr linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 15%;
+        font-family: Bebas Neue;
+
+}
+
+.box{
+   width: 90%;
+        position: relative;
+        top: 0%;
+        text-align: left;
+        left: 4%;
+        animation: transr linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 20%;
+
+}
+
+.box2{
+   width: 90%;
+        position: relative;
+        top: 3%;
+        text-align: left;
+        left: 4%;
+        animation: transr linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 15%;
+}
+
+/* section 7 */
+
+#proj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects img{
+        position: relative;
+        top: -63%;
+        left: 0%;
+        cursor: pointer;
+        height: 130%;
+        width: 100%;
+        border-radius: 60%;
+        border: 3px solid white;
+    
+}
+
+.projects img:hover {
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.566);
+   position: relative;
+    top: 0px;
+    left: 0px;
+    height: 50vh;
+    bottom: 0;
+    
+}
+
+.watermark  {
+    position: relative;
+        top: 5%;
+        left: 0%;
+        color: black;
+        font-size: 7rem;
+        font-family: Bebas Neue;
+
+
+}
+
+.projects .watermark{
+    transition: ease-in 2s;
+    color: white;
+    text-shadow: 0px 0px 100px #FDDFB1;
+
+}
+
+
+/* section 8 */
+
+.contact{
+
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-container {
+    border: 1px solid #fddfb1;
+        padding: 5%;
+        border-radius: 20px;
+        max-width: 100%;
+        width: 80%;
+        box-shadow: 0 0 1000px #ffffff66;
+        position: relative;
+        top: 0%;
+        left: 0%;
+ 
+  }
+
+
+}
