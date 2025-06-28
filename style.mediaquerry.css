@@ -272,6 +272,11 @@ display: none;
 
 /* section 5 */
 
+.pskills {
+    height: auto;
+    background: rgb(0, 0, 0);
+}
+
 .pskills h1{
     color: #FDDFB1;
     font-family: Bebas Neue;
